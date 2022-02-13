@@ -1,0 +1,7 @@
+npm install @inoic/cli
+
+npm install -g @ionic/cli native-run cordova-res
+
+ ionic start photo-gallery tabs --type=angular --capacitor
+
+ionic generate {component / page / service / directive} nombre (--dry-run)  

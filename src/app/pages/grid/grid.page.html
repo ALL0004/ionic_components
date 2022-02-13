@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" text="volver" color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title>grid</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-grid fixed>
+  <ion-row>
+    <ion-col size="12" size-lg="3" size-md="4" size-sd="6"
+        *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]">
+      <ion-card>
+        <ion-img src="/assets/avatar.jpeg"></ion-img>
+      </ion-card>
+
+      <ion-card-header>
+        <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+        <ion-card-title>Awesome Title</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis placeat error nobis consectetur modi, quasi provident tenetur nihil commodi illum enim rem neque doloremque dicta culpa iste est reprehenderit quisquam!
+      </ion-card-content>
+
+    </ion-col>
+    
+    
+  </ion-row>
+</ion-grid>
+
+</ion-content>
